@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* nav-section-styles starts*/
+.nav-bar{
+    display:flex;
+    justify-content: space-around;
+    gap:30px;
+    padding: 15px;
+}
+.nav-div1 {
+    display: flex;
+    column-gap:10px ;
+    align-items:center;  
+}
+.nav-div2 {
+    display: flex;
+    align-items:center;  
+}
+
+ul{
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+li{
+    font-size: small;
+}
+a {
+    text-decoration: none;
+    color:black
+}
+.btn {
+    color:white;
+    background-color: #1D4ED8;
+    padding:10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: small;
+    cursor:pointer;
+}
+
+/* header-section-styles starts*/
+
+header {
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
+    url('../Images/banner.jpg');
+    height: 700px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color:white;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+header p{
+    color:white;
+    text-align: center;
+    padding-bottom: 250px;
+}
+header .btn{
+    font-weight: bold;
+    font-size: medium;
+    padding: 15px 35px;
+}
+
+/* main-pic-section starts here.. */
+
+.speakers{
+    margin: 40px 100px;
+}
+.speakers h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.pic-container {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius:10px;
+    overflow: hidden;
+    border: 1px solid rgba(232, 230, 230, 0.9);
+}
+.cards img {
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 20px;
+    
+}
+
+.cards-p1{
+    color:#2563EB;
+    font-size: small;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.cards-p2{
+    color:#0D1B2A;
+    font-size: small;
+    padding-left: 10px;
+    
+}
+.cards h3{
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
