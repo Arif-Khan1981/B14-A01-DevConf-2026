@@ -88,7 +88,6 @@ header .btn{
     padding-bottom: 30px;
 }
 .pic-container {
-    /* background-color: aqua; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -205,16 +204,28 @@ li span {
 }
 
 /* footer section styles starts here... */
-footer{display: flex;
-    justify-content: space-between;
+footer{
     background-color:#0D1B2A ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     font-size: small;
     color: rgb(255, 255, 255, 0.5);
-    padding: 40px 60px 50px;
+    padding: 40px 0 50px 150px;
+    flex-wrap: wrap;
 }
-footer ul{
+.copyright, .mid-links, .ft-icons{
+    width:33%;
+    display: flex;
+    gap:25px;
+}
+.mid-links ul{
     list-style:none;
 }
-footer a{
+.mid-links a{
     color:rgb(255, 255, 255, 0.5);
+}
+
+.foot-icon {
+    block-size: 25px;;
 }
