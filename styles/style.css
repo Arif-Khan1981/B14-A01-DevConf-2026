@@ -203,59 +203,47 @@ li span {
     margin-top: 20px;
 }
 
-/* Challenge sec-styles starts here */
 
-.challenge-container{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.faq{
-    display: flex;
-    flex-direction: column;
-}
-.faq-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 1.9;
-}
 
 /* Challenge sec-style starts here... */
-
+   /* FAQ PART... */
 .challenge-sec{
-    background-color: red;
+    /* background-color: red; */
 }
 .challenge-container{
-    background-color: aquamarine;
-    margin:20px 50px 1px;
+    /* background-color: aquamarine; */
+    margin:20px 100px 1px;
     display: grid;
-    grid-template-columns:30% 65%;
+    grid-template-columns:40% 55%;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .faq{
-    background-color: yellowgreen;
-    padding:1px 25px;
-    row-gap:2px;
+    /* background-color: yellowgreen; */
+    padding:1px 25px 0;
+    row-gap:5px;
 }
 .faq-question{
     display: flex;
     flex-direction:column;
-    background-color: orange;
+    /* background-color: orange; */
     row-gap: 10px;
-    padding: 0px 0;
+    padding: 15px 5px 5px;
 }
 .faq-content{
-    background-color: antiquewhite;
-    padding:20px;
+    background-color: rgb(248, 246, 242);
+    padding:28px 20px;
     border-radius: 10px;
 }
-.faq-content button{
+.faq-content> p{
+    padding:10px 5px 5px; 
+}
+.faq-content>h1{
+    padding:23px 5px 5px; 
+}
+.btn-ch{
     background-color: #88a8ed;
     color: #1D4ED8;
-    font-weight: 800 ;
+    font-weight: 900 ;
     padding: 8px;
     border:none;
     border-radius: 5px;
@@ -267,13 +255,83 @@ li span {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 90% 5%;
-    padding: 10px 20px;
-    
+    padding: 10px 20px;   
 }
-
 .quest img{
     block-size: 25px;
 }
+
+  /* SIGN UP PART.. */
+
+  .sign-up{
+    display:flex;
+    flex-direction: row;
+    gap:5px;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .loop{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 25px;
+    background-color: rgb(223, 233, 240);
+    padding:43px 25px 20px; 
+  }
+  .loop p{
+    line-height: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .loop span{
+    color:#2563EB;
+  }
+  .ul-ch{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    list-style:circle;
+    padding-top: 25px;
+  }
+  .ul-ch li{
+    text-decoration: none;
+    color: #0D1B2A;
+    font-size: medium;
+    font-style: italic;
+  }
+
+  .signup-form {
+    flex-basis: 30%;
+    background-color: #c1dcf9;
+    border: 1px solid rgba(42, 128, 232, 0.7);
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  .signup-form h1{
+    padding-bottom: 50px;
+  }
+  .signup-form span{
+    color: #2563EB;
+    font-weight:bolder;
+  }
+.signup-form form input{
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+  }
+  
+ 
+
+
+
+
+
+
+
+
+
 
 
 /* footer section styles starts here... */
