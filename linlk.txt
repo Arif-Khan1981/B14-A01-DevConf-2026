@@ -1,3 +1,12 @@
 Live link: https://arif-khan1981.github.io/B14-A01-DevConf-2026/
 
 github link: https://github.com/Arif-Khan1981/B14-A01-DevConf-2026
+
+prompt to AI:  "I am a fresh beginner of html/css. 
+                Show me a simple but attractive html 
+                section design that must have relevant 
+                to the DevConf 2026 theme (e.g. Sponsors, 
+                Venue, FAQ, Newsletter Signup, Hackathon 
+                Details, Past Highlights, Job Board, etc.).  
+                I will use it before My footer section that 
+                already has a black backgroud color."

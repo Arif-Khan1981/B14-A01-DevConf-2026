@@ -1,0 +1,281 @@
+
+
+/* Base Badge Style */
+
+.challenge-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.badge {
+    align-self: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 6px 16px;
+    border-radius: 100px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.purple-badge {
+    background-color: #eef2ff;
+    color: #1D4ED8;
+}
+
+.light-purple-badge {
+    background-color: #f0f0ff;
+    color: #1D4ED8;
+}
+
+/* ==========================================
+   Master Grid Layout
+   ========================================== */
+/* .main-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr; /* Gives the left side a bit more room */
+    gap: 40px;
+    max-width: 1440px;
+    width: 100%;
+    align-items: start;
+} */
+
+/* ==========================================
+   LEFT SIDE: Sign-up Component Styles
+   ========================================== */
+.left-panel {
+    width:40%
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 56px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.02);
+}
+
+.signup-container {
+    width:50%;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 40px;
+}
+
+.content-side {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-side h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #1a2238;
+    margin-bottom: 20px;
+}
+
+.content-side h1 .highlight {
+    color: #1D4ED8;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 32px;
+}
+
+.benefits-list {
+    list-style: none;
+}
+
+.benefits-list li {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a2238;
+    margin-bottom: 16px;
+}
+
+.check-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: #e6f9ed;
+    color: #1D4ED8;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+/* Left Form Box */
+.form-card {
+    width:50%;
+    background-color: #f7f8fc;
+    border: 1px solid #eef0f6;
+    border-radius: 20px;
+    padding: 36px;
+}
+
+.form-card h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1a2238;
+    margin-bottom: 24px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    color: #1a2238;
+    background-color: #ffffff;
+    transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #1D4ED8;
+}
+
+.input-group input::placeholder {
+    color: #94a3b8;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 12px;
+}
+
+.btn-submit:hover {
+    background-color: #1D4ED8;
+}
+
+.footer-note {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a2238;
+}
+
+/* ==========================================
+   RIGHT SIDE: FAQ Accordion Component Styles
+   ========================================== */
+.right-panel {
+    width:30%;
+    background-color: #f8f9fd; /* Very distinct off-white base layer */
+    border-radius: 24px;
+    padding: 56px 40px;
+}
+
+.faq-container {
+    max-width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.faq-header h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1a2238;
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+}
+
+.faq-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #64748b;
+}
+
+.faq-subtitle a {
+    color: #64748b;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* Accordion Elements */
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-item {
+    background-color: #ffffff;
+    border: 1px solid #eef0f6;
+    border-radius: 16px;
+    padding: 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.01);
+}
+
+.faq-question {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a2238;
+    padding-right: 16px;
+}
+
+.faq-toggle {
+    background-color: #f0f0ff;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background-color 0.2s;
+}
+
+.faq-toggle:hover {
+    background-color: #e5e5ff;
+}
+
+.plus-icon {
+    color: #1D4ED8;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+}

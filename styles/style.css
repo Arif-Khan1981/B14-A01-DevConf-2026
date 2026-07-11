@@ -203,6 +203,79 @@ li span {
     margin-top: 20px;
 }
 
+/* Challenge sec-styles starts here */
+
+.challenge-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+.faq-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.9;
+}
+
+/* Challenge sec-style starts here... */
+
+.challenge-sec{
+    background-color: red;
+}
+.challenge-container{
+    background-color: aquamarine;
+    margin:20px 50px 1px;
+    display: grid;
+    grid-template-columns:30% 65%;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.faq{
+    background-color: yellowgreen;
+    padding:1px 25px;
+    row-gap:2px;
+}
+.faq-question{
+    display: flex;
+    flex-direction:column;
+    background-color: orange;
+    row-gap: 10px;
+    padding: 0px 0;
+}
+.faq-content{
+    background-color: antiquewhite;
+    padding:20px;
+    border-radius: 10px;
+}
+.faq-content button{
+    background-color: #88a8ed;
+    color: #1D4ED8;
+    font-weight: 800 ;
+    padding: 8px;
+    border:none;
+    border-radius: 5px;
+}
+.quest {
+    background-color: #f2f6fb;
+    border:1px solid rgba(122, 178, 247, 0.4);
+    border-radius: 10px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 90% 5%;
+    padding: 10px 20px;
+    
+}
+
+.quest img{
+    block-size: 25px;
+}
+
+
 /* footer section styles starts here... */
 footer{
     background-color:#0D1B2A ;
